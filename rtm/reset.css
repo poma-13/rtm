@@ -1,0 +1,9 @@
+header,nav.div.section.article.foother,div,ul,ol,li,h1,h2,h3,h4.h5.h6,main,a,img,p,aside,body,main
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}

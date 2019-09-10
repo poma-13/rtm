@@ -1,0 +1,354 @@
+body{
+    min-width: 100vh;
+}
+
+a:visited{
+    color: #213d65;
+}
+.contenedor{
+  margin: 0 auto;
+    max-width: 1200px;
+    
+
+}
+
+.menu-header{
+    display: flex;
+    justify-content: space-between;
+  
+
+}
+
+.menu-header-dos{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.menu-header-dos li{
+    display: block;
+    padding: 16px;
+    text-decoration: 0.5s;
+    background-color:white;
+    color: #f9f9f9;
+}
+.menu-header-dos li:hover{
+    background-color: #cfcccc; 
+  
+}
+
+.menu-header-dos li:hover a{
+    color: #213d65
+}
+.submenu-container{
+    position: relative;
+}
+.menu-header-dos a{
+    text-decoration: none ;
+    color: #c0bdbd
+}
+.submenu{
+    visibility: hidden;
+    opacity:0;
+    min-width: 100px;
+    position: absolute;
+    transition: all 0.5s ease;
+    left: 0;
+    top: 50px;
+    display:none;
+    background-color: white;
+
+}
+.menu-header-dos li:hover> .submenu,
+.menu-header-dos li .submenu:hover{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+.menu-header-dos .submenu li a{
+    
+    color:gray;
+   
+}
+.submenu li:hover{
+    background-color: #cfcccc;
+    
+    
+
+}
+
+.submenu li:hover a{
+    color: #929090;
+}
+
+.portada{
+background-image: url(imagen_principal.jpg);
+height: 500px;
+background-size: 2038px 559px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: white;
+
+}
+.titulo-empresas{
+    font-size: 72px;
+
+    
+
+}
+
+.img-portada-pelota{
+    background-image: url(rtm_logo.png);
+    background-size: 1909px 474px;
+    height: 473px;
+}
+
+.contenido-pelota{
+    width: 598px;
+    font-size: 20px;
+    margin-left: 174px;
+    padding-top: 147px;
+}
+.linea-ploma::after{
+    content: "";
+    width: 100px;
+    display: block;
+    border-bottom: 3px #213d65 solid;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.articulos{
+    background-color: #213d65;
+    color: white;
+}
+.articulo-portada{
+    background-image: url(background-slider-6.jpg);
+    height: 719px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+.digital{
+    font-size: 72px;
+    width: 1100px;
+    background-color: #213d65;
+    margin-bottom: 40px;
+    opacity: 0.4;
+    color: white;
+}
+   
+    
+    
+
+
+.tema{
+    color: white;
+    font-size: 41px;
+    margin-right: 338px;
+    background-color: #213d65;
+    opacity: 0.4;
+   
+
+}
+.titulo-hacemos{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom:20px; 
+    padding-top: 20px;
+}
+.rayita{
+    border-bottom: solid;
+    border-color: #213d65;
+    margin: 1px 530px 0px 567px;
+
+}
+.contenido{
+    display: flex;
+    justify-content: center;
+    margin-top: 39px;
+    margin-bottom: 98px;
+
+}
+.grupos-contenido{
+    
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.igual{
+    width: 141px;
+    width: 141px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 23px;
+
+}
+.gordito{
+    background-color: #dbd7d7;
+    padding-bottom: 25px;
+    margin-bottom: 67px;
+}
+.boton{
+   margin-top: 20px;
+   margin-top: 99px;
+   border-style: none;
+   background-color: #fb9803;
+   height: 27px;
+   width: 141px;
+   color: white;
+   cursor: pointer;
+
+}
+.boton1{
+    margin-top: 100px;
+    border-style: none;
+    background-color: #fb9803;
+    height: 27px;
+    width: 141px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+.testimonios{
+    display: flex;
+    justify-content: center;
+    margin-top: 119px;
+    padding-bottom: 70px;
+
+}
+.imagen-uno{
+    position: relative;
+    
+    top: -39px;
+}
+
+.estrategia{
+    margin-bottom: 14px;
+    margin-top: -39px;
+}
+.raya-dos{
+    border-bottom: solid;
+    border-color: #213d65;
+    margin: -38px 728px 36px 778px;
+
+}
+
+.articulo{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.nombres-propios{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 56px;
+    margin-bottom: 40px;
+}
+.articulo img{
+    padding-bottom: 50px;
+}
+
+.juego{
+    text-align: center;
+
+    width: 288px;
+
+    font-size: 20px;
+}
+
+.img-fondo-dos{
+    background-image: url(ready_to_talk_cta_bg.jpg);
+    flex-direction: column;
+    height: 399px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-dos{
+    margin-top: 17px;
+    background-color: #fb9803;
+    border-radius: 20px;
+    border-color: #fb9803;
+    color: white;
+    border-style: none;
+    font-size: 14px;
+    width: 193px;
+    height: 37px;
+    cursor: pointer;
+}
+.color{
+    font-size: 26px;
+    color: gray;
+}
+
+.footer{
+
+    background-color: dimgrey;
+    background-color: dimgrey;
+    display: flex;
+    justify-content: space-evenly;
+    color: #f9f9f9;
+    padding-bottom: 43px;
+    padding-top: 150px;
+
+
+}
+.jorge{
+    text-align: center;
+
+}
+
+.div{
+    background-color: gray;
+    color: #f9f9f9;
+    padding-bottom: 12px;
+    padding-top: 20px;
+}
+
+
+.estrategia:hover{
+    color: #fb9803;
+}
+.boton-leermas{
+    border-style: none;
+    background-color:#213d65;
+    height: 28px;
+    width: 100px;
+    color: white;
+    border-radius: 88px;
+    margin-top: 13px;
+}
+
+.boton-leermas:hover{
+    background-color: #fb9803;
+    cursor: pointer;
+    transition: background-color 1s
+}
+#contacto{
+    border-style: none;
+    background-color: #fb9803;
+    height: 20px;
+    width: 90px;
+    color: white;
+    padding: 5px 18px 5px 18px;
+    border-radius: 24px;
+}
+.contacto-1:hover{
+    background-color: white !important;
+}
